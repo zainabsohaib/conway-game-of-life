@@ -15,7 +15,7 @@ int rows = 0;
 int columns = 0;
 int generations = 0;
 int size = 0;
-int* splitter;
+int* splitter;//spliitter means board(screen) 
 int* copy;
 
 void read_split(char* file_name)
@@ -155,7 +155,7 @@ void game_Generation(thread_param_t* actuals)
         {
             copy[index] = 0;
         }
-        if ((splitter[index] == 0) && (neighbors == 3))
+        if ((splitter[index] == 1) && (neighbors == 3))
         {
             copy[index] = 1;
         }
