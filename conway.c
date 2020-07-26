@@ -43,12 +43,12 @@ void read_split(char* file_name)
            
             if (!isspace(var)) 
             {
-                if ('1' == var)
+                if ('*' == var)
                 {
                     splitter[cursor] = 1;
                     cursor = cursor + 1;
                 }
-                else if ('0' == var)
+                else if ('.' == var)
                 {
                     splitter[cursor] = 0;
                     cursor = cursor + 1;
