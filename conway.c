@@ -188,7 +188,7 @@ int main(int argc, char** argv)
 {
     if (argc < 2)
     {
-        printf("Run this program with the split file name argument.");
+        printf("Run this program with the board file name argument.");
         exit(EXIT_FAILURE);
     }
 
