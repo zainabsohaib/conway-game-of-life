@@ -25,4 +25,4 @@ It was working with single thread but when we add multiple threads it was not ta
 
 ## DESCRIPTION
 This program runs Conway's Game Of Life utilizing pthreads to split the task of processing. The game board is divided up between threads by rows, and when there are more threads than rows, individual rows are divided up between threads as well.
-# CONWAY FILE:
+### CONWAY FILE:
