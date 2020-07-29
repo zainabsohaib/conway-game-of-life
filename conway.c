@@ -9,13 +9,13 @@
 #include "barrier.h"
 #include "split.h"
 
-#define NUMBER_OF_THREADS 1
+#define NUMBER_OF_THREADS 10
 
 int rows = 0;
 int columns = 0;
 int generations = 0;
 int size = 0;
-int* splitter;//spliitter means board(screen) 
+int* splitter;
 int* copy;
 
 void read_split(char* file_name)
