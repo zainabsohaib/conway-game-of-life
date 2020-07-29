@@ -36,5 +36,6 @@ Splitcode function is use to split rows it will check conditions for thread coun
 * time taken is 2.3 thread used 4
 * time taken is 0.567 thread used 3
 ## REFERENCES
-* 
-*
+* https://github.com/rakuco/gameoflife/blob/master/game.c
+* https://github.com/madelgi/game-of-life
+* https://www.geeksforgeeks.org/program-for-conways-game-of-life/
