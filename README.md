@@ -33,7 +33,8 @@ In this class mutex is used.Mutex are basically used so that multiple program th
 Splitcode function is use to split rows it will check conditions for thread count if they are less or more then rows.It will check in else that now each thread beyond rows just gets one cell this will be upgraded to actually split rows eventually.It will assign one cell to each extra thread.It actually creating space between ones and zeros,its splitting the board.
 2 header files are created split.h and barrier.h as they tell compilor how to call some functionality.
 #### Time taken:
-time taken is 2.3 thread used 4
-time taken is 0.567 thread used 3
+* time taken is 2.3 thread used 4
+* time taken is 0.567 thread used 3
 ## REFERENCES
-
+* 
+*
